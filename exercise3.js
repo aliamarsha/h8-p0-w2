@@ -1,4 +1,4 @@
-//EXERCISE 5
+//EXERCISE 3
 var nama = "Indra"
 var peran = "Tabib"
 

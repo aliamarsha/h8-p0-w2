@@ -1,0 +1,68 @@
+//EXERCISE
+
+Question 1
+STORE "massa" with any number
+STORE "percepatan" with any number
+
+CALCULATE "massa" times "percepatan"
+SET "resultan-gaya" value with calculation result
+
+DISPLAY "resultan-gaya"
+
+//Question 2
+
+INPUT "year" with any number
+
+IF "year" divides by 4 is 0, and "year" divides by 100 is GREATER than 0, 
+    THEN DISPLAY "This is a leap year" 
+         ELSE IF "year" divides by 4 is 0, and "year" divides by 100 is 0, 
+         and "year" divides by 400 is 0,
+            THEN DISPLAY "This is a leap year"
+        ELSE 
+            DISPLAY "This is not a leap year"
+ENDIF 
+
+var year;
+
+if (year % 4 === 0 &&
+    year % 100 > 0) {
+      console.log ("This is a leap year")
+    } else if (year % 4 === 0 &&
+    year % 100 === 0 &&
+    year % 400 === 0 ) {
+      console.log ("This is a leap year")
+    } else {
+    console.log ("This is not a leap year") 
+    }
+
+//Question 3
+
+IF "clothes" is less than 20
+THEN DISPLAY "washing machine is off"
+ELSE IF "clothes" is equal or bigger than 20
+THEN DISPLAY "washing machine on"
+
+var clothes; 
+
+if (clothes < 20) {
+  console.log("Washing machine off")
+} else if (clothes >= 20) {
+  console.log("Washing machine on")
+}
+
+//QUESTION 4
+
+IF "nailLength" is equal to or less than 2cm
+DISPLAY "Teacher compliments student"
+ELSE IF "nailLength" is greater than 2cm
+DISPLAY "Teacher punishes student" 
+
+var nailLength; 
+
+if ( nailLength <= 2){
+  console.log("Teacher compliments student")
+} else {
+console.log("Teacher punishes student")
+} 
+
+

@@ -1,4 +1,4 @@
-//EXERCISE 5
+//EXERCISE 4
 var tanggal = 1
 var bulan = 1
 var tahun = 2012
