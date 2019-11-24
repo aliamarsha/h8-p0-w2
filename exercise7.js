@@ -2,34 +2,39 @@
 
 //Question 1
 var rows1;
-var a; 
 rows1 = 4
 
-for (a=0; a < rows1 ;a++ ){
+for (i=0; i < rows1; i++ ){
     console.log("*")
 }
 
-//Question 2 BELUM SELESAI
+//Question 2 
 var rows2;
-var i = 0; 
-var bintang1 = " "; 
-
-rows2 = 5
-
-for (i=0; i <= rows2; i++) {
-    for (j=0; j < i; j++) {    
-        bintang1 += "*";
-        console.log(bintang1 + bintang1)
-    }
-} 
-
-//Question 3 BELUM SELESAI
-var rows3; 
-var k; 
+var bintang1 = " ";
 var bintang2 = " "; 
 
-for (k=0; i <= rows3; i++) {
-    for (l=0; l <= k; l++) {
-        console.log("*")
-    }
+rows2 =5
+
+for (i = 1; i < rows2; i++) {
+ for (j =1; j < rows2; j++) {
+  bintang1 += ("*")
+  }
+bintang2 = (bintang1 += ("*") + "\n")
 }
+console.log(bintang2)
+
+//Question 3 
+var rows3;
+var bintang3 = " ";
+var bintang4 = " "; 
+
+rows3 = 4;
+
+for (i=0; i < rows3; i++ ) {
+  for (j =0; j < i; j++ ) {
+    bintang3 += ("*")
+  }
+  bintang4 = bintang3 += ("*") + "\n"
+}
+
+console.log (bintang4); 
