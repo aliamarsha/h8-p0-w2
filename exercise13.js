@@ -1,17 +1,4 @@
-//EXERCISE 13 NOT DONE YET
-
-/*function xo(str){
-    for (var x=0; x < str.length; x++) {
-        for (var o=0; o == x; o++);
-    
-    if (x.length === o.length) {
-        return true 
-    } else {
-        return false
-    }
-    
-    }
-} */
+//EXERCISE 13 
 
 function xo(str) {
     var x = 0;
